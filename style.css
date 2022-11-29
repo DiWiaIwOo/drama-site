@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    margin: 0%;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.top {
+    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.437)), url("file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/main-splash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+}
+
+.header>h2 {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: white;
+    padding: 0.3em 0.8em 0.3em 0.8em;
+}
+
+.sign {
+    background-color: #ff8e8e;
+    border-radius: 5px;
+}
+
+.sign:hover {
+    background-color: #FFB2B2;
+}
+
+.Lovers {
+    margin: 4em;
+    align-items: flex-end;
+    width: 60vw;
+}
+
+.Lovers>p {
+    font-size: 20px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em 3em 0 3em;
+}
+
+.middle>div {
+    display: flex;
+    width: 25%;
+    height: 70vh;
+}
+
+.mov1 {
+    background-image: url(file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/movie1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mov2 {
+    background-image: url(file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/movie2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mov3 {
+    background-image: url(file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/movie3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.things {
+    padding: 2em;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.things:hover {
+    background-color: #00000075;
+    opacity: 1;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.watch {
+    display: flex;
+    justify-content: center;
+    background-color: #ff8e8e;
+    width: 6em;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 3em;
+}
+
+.down {
+    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.5)), url("file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/signup-splash.jpg");
+    margin-top: 3em;
+    padding: 4em;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.info>h1 {
+    padding: 10px;
+    width: 10vw;
+    text-align: center;
+}
+
+.info>p {
+    width: 60vw;
+    font-size: 50px;
+}
+
+.education {
+    color: white;
+    margin: 2em;
+    text-align: center;
+}
+
+.meg {
+    display: flex;
+}
+
+.meg>p {
+    margin-top: 1em;
+}
+
+.left {
+    height: 100vh;
+    filter: blur(4px);
+}
+
+.right {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    color: #00000090;
+    background-color: white;
+}
+
+.inp {
+    margin-top: 1em;
+}
+
+.link3 {
+    color: white;
+    margin: auto;
+    background-color: #ff8e8e;
+    margin-top: 2em;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.link3:hover {
+    background-color: #FFB2B2;
+}
+
+.pink {
+    background-color: #FF8E8E;
+    width: 25%;
+    height: 100vh;
+    padding: 2em;
+}
+
+.spink {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.alll {
+    display: flex;
+}
+
+.spink>img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items {
+    text-align: center;
+}
+
+.sett {
+    color: #ffffff6f;
+}
+
+.list {
+    margin: 0.5em;
+}
+
+.out {
+    margin: 0.5em;
+    margin-top: 80%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.black {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2em 2em 0em 2em;
+}
+
+.cononline {
+    width: 50%;
+    margin: 5px;
+}
+
+.recommendations {
+    width: 50%;
+}
+
+.continue {
+    display: flex;
+    margin: 5px;
+}
+
+.ok {
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.notok {
+    font-weight: 900;
+}
+
+.okpos {
+    width: 30%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.smoldes {
+    font-size: 13px;
+}
+
+.friends {
+    height: 60%;
+}
+
+.ppl {
+    display: flex;
+}
+
+.ppl>img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 0;
+}
+
+.usernames {
+    margin-bottom: 2px;
+    font-weight: 800;
+}
+
+.ppltext {
+    margin: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.guess {
+    margin: 10px;
+    display: flex;
+}
+
+.guess {
+    height: 25%;
+}
