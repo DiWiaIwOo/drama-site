@@ -23,7 +23,7 @@ p {
 }
 
 .top {
-    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.437)), url("pictures/main-splash.jpg");
+    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.437)), url(pictures/main-splash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
