@@ -23,7 +23,7 @@ p {
 }
 
 .top {
-    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.437)), url("file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/main-splash.jpg");
+    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.437)), url("pictures/main-splash.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -73,19 +73,19 @@ p {
 }
 
 .mov1 {
-    background-image: url(file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/movie1.jpg);
+    background-image: url(pictures/movie1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .mov2 {
-    background-image: url(file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/movie2.jpg);
+    background-image: url(pictures/movie2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .mov3 {
-    background-image: url(file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/movie3.jpg);
+    background-image: url(pictures/movie3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -119,7 +119,7 @@ a {
 }
 
 .down {
-    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.5)), url("file:///C:/Users/User/Documents/html%20web%20design/drama%20site/pictures/signup-splash.jpg");
+    background: linear-gradient(rgba(0 0 0/ 0), rgba(0 0 0/ 0.5)), url("pictures/signup-splash.jpg");
     margin-top: 3em;
     padding: 4em;
     background-position: center;
